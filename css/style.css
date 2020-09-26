@@ -1,18 +1,51 @@
-*{
-    padding: 0;
-    margin: 0;
-    
+* {
+  padding: 0;
+  margin: 0;
+  
 }
-#header{
-    background-color: #800000;
-    color: #fff;
+body{
+  text-align: center;
+}
+.h1{
+  text-align:center;
+}
+#header {
+  background-color: #800000;
+  color: #fff;
 }
 #nav-bar{
-    display: flex;
-}
-.flex{
-    display: flex;
+  background-color:#f5f54c;
+  color:#000;
+  display:flex;
+  justify-content: center;
 }
 .nav-link{
-    flex-grow:1;
+  margin:25px;
+  background-color: #f5f5dc;
+  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  font-weight: bolder;
+}
+.nav-link:hover{
+  opacity: 0.8;
+  color:black;
+}
+   
+.story{
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+}
+#tips{
+  margin-top:px;
+}
+.naija-food{
+  max-width:1700px;
+
+  margin-top:20px;
+  margin-bottom: 20px;
+  
 }
