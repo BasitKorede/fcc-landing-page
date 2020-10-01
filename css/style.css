@@ -5,6 +5,7 @@
 }
 body{
   text-align: center;
+  background-color: #800000;
 }
 .h1{
   text-align:center;
@@ -18,6 +19,8 @@ body{
   color:#000;
   display:flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
 }
 .nav-link{
   margin:25px;
@@ -27,6 +30,7 @@ body{
   text-align: center;
   flex-grow: 1;
   font-weight: bolder;
+  font-size: 150%;
 }
 .nav-link:hover{
   opacity: 0.8;
@@ -38,14 +42,26 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-top:20px;
+  background-color: #f5f5dc;
+  padding: 5px;
 }
 #tips{
   margin-top:px;
 }
 .naija-food{
   max-width:1700px;
-
   margin-top:20px;
   margin-bottom: 20px;
   
+}
+#email{
+  width: 150px;
+}
+#submit{
+  padding: 4px 15px 3px 15px;
+  margin: 10px;
+}
+#submit:hover{
+background-color: #ff7f50;
+
 }
